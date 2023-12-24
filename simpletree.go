@@ -19,7 +19,7 @@ func Initforest(maxValueLength int) Forest {
 	var i int = 1
 
 	for i < maxValueLength {
-		f[i] = append(f, nil)
+		f = append(f, nil)
 		i += 1
 	}
 
