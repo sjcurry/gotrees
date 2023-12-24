@@ -15,7 +15,7 @@ type Tree struct {
 type Forest []*Tree
 
 func Initforest(maxValueLength int) Forest {
-	var f Forest = []
+	var f Forest
 	var i int = 1
 
 	for i < maxValueLength {
